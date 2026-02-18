@@ -1,0 +1,24 @@
+{
+  "name": "my-project",
+  "mode": "vendored",
+  "dependencies": {
+    "tessl/pypi-langgraph": {
+      "version": "1.0.3"
+    },
+    "trailofbits/skills": {
+      "source": "https://github.com/trailofbits/skills",
+      "include": {
+        "skills": [
+          "modern-python"
+        ]
+      },
+      "version": "776ccc812c01637d327e13126ebfdbc8a119ea8f"
+    },
+    "tessl/pypi-langgraph-cli": {
+      "version": "0.4.0"
+    },
+    "tessl/pypi-pytest": {
+      "version": "8.4.0"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "peacock.color": "#263238",
+  "peacock.darkenLightenPercentage": 1,
+  "peacock.elementAdjustments": {
+    "activityBar": "darken",
+    "statusBar": "darken",
+    "titleBar": "darken"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "testify": {
+    "assertion_hash": "f3c7a53f81fb29a477b7710bd982a45718f2de8c2eaa7729e040323d394a0621",
+    "generated_at": "2026-02-18T03:08:01Z",
+    "test_specs_file": "specs/001-langgraph-scaffolding/tests/test-specs.md"
+  }
+}

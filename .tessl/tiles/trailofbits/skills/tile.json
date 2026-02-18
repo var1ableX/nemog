@@ -1,0 +1,167 @@
+{
+  "name": "trailofbits/skills",
+  "version": "776ccc812c01637d327e13126ebfdbc8a119ea8f",
+  "summary": "Auto-generated tile from GitHub (53 skills)",
+  "private": true,
+  "skills": {
+    "address-sanitizer": {
+      "path": "plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md"
+    },
+    "aflpp": {
+      "path": "plugins/testing-handbook-skills/skills/aflpp/SKILL.md"
+    },
+    "algorand-vulnerability-scanner": {
+      "path": "plugins/building-secure-contracts/skills/algorand-vulnerability-scanner/SKILL.md"
+    },
+    "ask-questions-if-underspecified": {
+      "path": "plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md"
+    },
+    "atheris": {
+      "path": "plugins/testing-handbook-skills/skills/atheris/SKILL.md"
+    },
+    "audit-context-building": {
+      "path": "plugins/audit-context-building/skills/audit-context-building/SKILL.md"
+    },
+    "audit-prep-assistant": {
+      "path": "plugins/building-secure-contracts/skills/audit-prep-assistant/SKILL.md"
+    },
+    "burpsuite-project-parser": {
+      "path": "plugins/burpsuite-project-parser/skills/SKILL.md"
+    },
+    "cairo-vulnerability-scanner": {
+      "path": "plugins/building-secure-contracts/skills/cairo-vulnerability-scanner/SKILL.md"
+    },
+    "cargo-fuzz": {
+      "path": "plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md"
+    },
+    "claude-in-chrome-troubleshooting": {
+      "path": "plugins/claude-in-chrome-troubleshooting/skills/claude-in-chrome-troubleshooting/SKILL.md"
+    },
+    "code-maturity-assessor": {
+      "path": "plugins/building-secure-contracts/skills/code-maturity-assessor/SKILL.md"
+    },
+    "codeql": {
+      "path": "plugins/static-analysis/skills/codeql/SKILL.md"
+    },
+    "constant-time-analysis": {
+      "path": "plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md"
+    },
+    "constant-time-testing": {
+      "path": "plugins/testing-handbook-skills/skills/constant-time-testing/SKILL.md"
+    },
+    "cosmos-vulnerability-scanner": {
+      "path": "plugins/building-secure-contracts/skills/cosmos-vulnerability-scanner/SKILL.md"
+    },
+    "coverage-analysis": {
+      "path": "plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md"
+    },
+    "debug-buttercup": {
+      "path": "plugins/debug-buttercup/skills/debug-buttercup/SKILL.md"
+    },
+    "devcontainer-setup": {
+      "path": "plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md"
+    },
+    "differential-review": {
+      "path": "plugins/differential-review/skills/differential-review/SKILL.md"
+    },
+    "dwarf-expert": {
+      "path": "plugins/dwarf-expert/skills/dwarf-expert/SKILL.md"
+    },
+    "entry-point-analyzer": {
+      "path": "plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md"
+    },
+    "firebase-apk-scanner": {
+      "path": "plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md"
+    },
+    "fuzzing-dictionary": {
+      "path": "plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md"
+    },
+    "fuzzing-obstacles": {
+      "path": "plugins/testing-handbook-skills/skills/fuzzing-obstacles/SKILL.md"
+    },
+    "git-cleanup": {
+      "path": "plugins/git-cleanup/skills/git-cleanup/SKILL.md"
+    },
+    "guidelines-advisor": {
+      "path": "plugins/building-secure-contracts/skills/guidelines-advisor/SKILL.md"
+    },
+    "harness-writing": {
+      "path": "plugins/testing-handbook-skills/skills/harness-writing/SKILL.md"
+    },
+    "insecure-defaults": {
+      "path": "plugins/insecure-defaults/skills/insecure-defaults/SKILL.md"
+    },
+    "interpreting-culture-index": {
+      "path": "plugins/culture-index/skills/interpreting-culture-index/SKILL.md"
+    },
+    "libafl": {
+      "path": "plugins/testing-handbook-skills/skills/libafl/SKILL.md"
+    },
+    "libfuzzer": {
+      "path": "plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md"
+    },
+    "modern-python": {
+      "path": "plugins/modern-python/skills/modern-python/SKILL.md"
+    },
+    "ossfuzz": {
+      "path": "plugins/testing-handbook-skills/skills/ossfuzz/SKILL.md"
+    },
+    "property-based-testing": {
+      "path": "plugins/property-based-testing/skills/property-based-testing/SKILL.md"
+    },
+    "ruzzy": {
+      "path": "plugins/testing-handbook-skills/skills/ruzzy/SKILL.md"
+    },
+    "sarif-parsing": {
+      "path": "plugins/static-analysis/skills/sarif-parsing/SKILL.md"
+    },
+    "second-opinion": {
+      "path": "plugins/second-opinion/skills/second-opinion/SKILL.md"
+    },
+    "secure-workflow-guide": {
+      "path": "plugins/building-secure-contracts/skills/secure-workflow-guide/SKILL.md"
+    },
+    "semgrep": {
+      "path": "plugins/static-analysis/skills/semgrep/SKILL.md"
+    },
+    "semgrep-rule-creator": {
+      "path": "plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md"
+    },
+    "semgrep-rule-variant-creator": {
+      "path": "plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md"
+    },
+    "sharp-edges": {
+      "path": "plugins/sharp-edges/skills/sharp-edges/SKILL.md"
+    },
+    "solana-vulnerability-scanner": {
+      "path": "plugins/building-secure-contracts/skills/solana-vulnerability-scanner/SKILL.md"
+    },
+    "spec-to-code-compliance": {
+      "path": "plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md"
+    },
+    "substrate-vulnerability-scanner": {
+      "path": "plugins/building-secure-contracts/skills/substrate-vulnerability-scanner/SKILL.md"
+    },
+    "testing-handbook-generator": {
+      "path": "plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md"
+    },
+    "token-integration-analyzer": {
+      "path": "plugins/building-secure-contracts/skills/token-integration-analyzer/SKILL.md"
+    },
+    "ton-vulnerability-scanner": {
+      "path": "plugins/building-secure-contracts/skills/ton-vulnerability-scanner/SKILL.md"
+    },
+    "using-gh-cli": {
+      "path": "plugins/gh-cli/skills/using-gh-cli/SKILL.md"
+    },
+    "variant-analysis": {
+      "path": "plugins/variant-analysis/skills/variant-analysis/SKILL.md"
+    },
+    "wycheproof": {
+      "path": "plugins/testing-handbook-skills/skills/wycheproof/SKILL.md"
+    },
+    "yara-rule-authoring": {
+      "path": "plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md"
+    }
+  }
+}
