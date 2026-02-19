@@ -1,6 +1,6 @@
 import random
 
-from src.graphs.writer_graph import create_graph
+from graphs.writer_graph import create_graph
 
 
 def test_ts_005_conditional_transition_logic() -> None:

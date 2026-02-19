@@ -1,7 +1,7 @@
 import logging
 
-from src.app.stubs import user_prompt
-from src.services.writer_svc import WriterSvc
+from app.stubs import user_prompt
+from services.writer_svc import WriterSvc
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")

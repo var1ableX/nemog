@@ -75,3 +75,10 @@ filterwarnings = [
 [tool.coverage.run]
 source = ["src"]
 omit = ["tests/*"]
+
+[project.scripts]
+nemog = "app.main:main"
+
+[tool.uv]
+package = true
+

@@ -1,5 +1,5 @@
-from src.app.stubs import user_prompt
-from src.graphs.writer_graph import create_graph
+from app.stubs import user_prompt
+from graphs.writer_graph import create_graph
 
 
 def test_ts_001_graph_execution_output() -> None:
@@ -26,7 +26,7 @@ def test_ts_002_graph_input_traceability(caplog) -> None:
 
 def test_ts_003_main_calls_stub(monkeypatch) -> None:
     """TS-003: Entry point call to input stub"""
-    import src.app.main
+    import app.main
 
     called = False
 
@@ -35,14 +35,14 @@ def test_ts_003_main_calls_stub(monkeypatch) -> None:
         called = True
         return "mock"
 
-    monkeypatch.setattr(src.app.main, "user_prompt", mock_prompt)
-    src.app.main.main()
+    monkeypatch.setattr(app.main, "user_prompt", mock_prompt)
+    app.main.main()
     assert called
 
 
 def test_ts_004_svc_executes_graph() -> None:
     """TS-004: Service layer execution of graph engine"""
-    from src.services.writer_svc import WriterSvc
+    from services.writer_svc import WriterSvc
 
     svc = WriterSvc()
     result = svc.run("test")

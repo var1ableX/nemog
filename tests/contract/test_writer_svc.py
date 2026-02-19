@@ -1,4 +1,4 @@
-from src.services.writer_svc import WriterSvc
+from services.writer_svc import WriterSvc
 
 
 def test_ts_010_writer_svc_interface() -> None:
