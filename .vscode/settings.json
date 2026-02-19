@@ -5,5 +5,24 @@
     "activityBar": "darken",
     "statusBar": "darken",
     "titleBar": "darken"
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#11171a",
+    "activityBar.background": "#11171a",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#603f55",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#11171a",
+    "statusBar.background": "#11171a",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#253239",
+    "statusBarItem.remoteBackground": "#11171a",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#11171a",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#11171a99",
+    "titleBar.inactiveForeground": "#e7e7e799"
   }
 }

@@ -1,6 +1,8 @@
 import logging
 import random
-from langgraph.graph import StateGraph, START, END
+
+from langgraph.graph import END, START, StateGraph
+
 from src.graphs.state import GraphState
 
 logger = logging.getLogger(__name__)

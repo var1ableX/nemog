@@ -1,5 +1,6 @@
 from src.graphs.writer_graph import create_graph
 
+
 class WriterSvc:
     """
     Service layer that acts as the interface between the entry point and the graph engine.

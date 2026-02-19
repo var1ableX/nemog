@@ -1,5 +1,6 @@
+
 from typing_extensions import TypedDict
-from typing import Optional
+
 
 class GraphState(TypedDict):
     """
@@ -12,4 +13,4 @@ class GraphState(TypedDict):
     """
     input: str
     message: str
-    decision: Optional[int]
+    decision: int | None

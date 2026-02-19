@@ -1,11 +1,12 @@
 import logging
+
 from src.app.stubs import user_prompt
 from src.services.writer_svc import WriterSvc
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
 
-def main():
+def main() -> None:
     """
     Standard entry point which invokes the graph via a call to a service layer.
     """

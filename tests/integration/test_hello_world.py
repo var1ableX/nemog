@@ -1,8 +1,8 @@
-import pytest
-from src.graphs.writer_graph import create_graph
 from src.app.stubs import user_prompt
+from src.graphs.writer_graph import create_graph
 
-def test_TS_001_graph_execution_output():
+
+def test_TS_001_graph_execution_output() -> None:
     """TS-001: Entry point execution (Hello World/Universe)"""
     graph = create_graph()
     input_text = user_prompt()
@@ -12,7 +12,7 @@ def test_TS_001_graph_execution_output():
     
     assert result["message"] in ["Hello World", "Hello Universe"]
 
-def test_TS_002_graph_input_traceability(caplog):
+def test_TS_002_graph_input_traceability(caplog) -> None:
     """TS-002: Traceability of input string"""
     import logging
     # Set up logging capture
@@ -26,7 +26,7 @@ def test_TS_002_graph_input_traceability(caplog):
     # Check if input_text appears in logs
     assert input_text in caplog.text
 
-def test_TS_003_main_calls_stub(monkeypatch):
+def test_TS_003_main_calls_stub(monkeypatch) -> None:
     """TS-003: Entry point call to input stub"""
     import src.app.main
     called = False
@@ -39,7 +39,7 @@ def test_TS_003_main_calls_stub(monkeypatch):
     src.app.main.main()
     assert called
 
-def test_TS_004_svc_executes_graph():
+def test_TS_004_svc_executes_graph() -> None:
     """TS-004: Service layer execution of graph engine"""
     from src.services.writer_svc import WriterSvc
     svc = WriterSvc()

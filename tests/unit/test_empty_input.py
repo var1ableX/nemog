@@ -1,7 +1,7 @@
-import pytest
 from src.services.writer_svc import WriterSvc
 
-def test_TS_009_empty_input_handling():
+
+def test_TS_009_empty_input_handling() -> None:
     """TS-009: Handle empty input"""
     svc = WriterSvc()
     

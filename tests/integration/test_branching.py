@@ -1,17 +1,17 @@
-import pytest
 import random
+
 from src.graphs.writer_graph import create_graph
 
-def test_TS_005_conditional_transition_logic():
+
+def test_TS_005_conditional_transition_logic() -> None:
     """TS-005: Conditional transition based on dynamic value"""
     graph = create_graph()
     # If it runs and returns a valid message, the transition logic was executed
     result = graph.invoke({"input": "test", "message": "", "decision": None})
     assert result["message"] in ["Hello World", "Hello Universe"]
 
-def test_TS_006_outcome_world(monkeypatch):
+def test_TS_006_outcome_world(monkeypatch) -> None:
     """TS-006: Outcome for specific dynamic value (0)"""
-    import random
     monkeypatch.setattr(random, "randint", lambda a, b: 0)
     graph = create_graph()
     result = graph.invoke({"input": "test", "message": "", "decision": None})
@@ -19,7 +19,6 @@ def test_TS_006_outcome_world(monkeypatch):
 
 def test_TS_007_outcome_universe(monkeypatch):
     """TS-007: Outcome for alternative dynamic value (1)"""
-    import random
     monkeypatch.setattr(random, "randint", lambda a, b: 1)
     graph = create_graph()
     result = graph.invoke({"input": "test", "message": "", "decision": None})

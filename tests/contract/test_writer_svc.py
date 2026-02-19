@@ -1,7 +1,7 @@
-import pytest
 from src.services.writer_svc import WriterSvc
 
-def test_TS_010_writer_svc_interface():
+
+def test_TS_010_writer_svc_interface() -> None:
     """TS-010: WriterSvc run interface"""
     svc = WriterSvc()
     input_text = "Test Input"
